@@ -530,7 +530,16 @@
     </footer>
     <!-- Footer -->
 
-    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const hamburgerIcon = document.querySelector('.fa-bars');
+          const navItems = document.querySelector('.nav_items');
+      
+          hamburgerIcon.addEventListener('click', function () {
+            navItems.classList.toggle('active');
+          });
+        });
+      </script>
 </body>
 
 </html>

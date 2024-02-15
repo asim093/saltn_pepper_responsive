@@ -587,35 +587,3 @@ footer{
     
 }
 
-@media only screen and (max-width: 968px) {
-
-.order_sec{
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    overflow-x: hidden;
-}
-
-.nav_items a{
-    font-size: 1rem !important;
-padding:  1rem !important;
-}
-
-.btn_nav1 {
-    padding: 0 !important;
-    margin: 0px 0px 0rem 0px !important;
-}
-
-.btn_nav2{
-    margin-bottom: 15rem !important;
-}
-
-body{
-    overflow-x:  hidden !important;
-}
-}
-
-@media only screen and (min-width: 768px) and (max-width:992px) {
-.nav_items a{}
-
-}
