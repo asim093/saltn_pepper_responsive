@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --red: #ed1c24;
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #0f0f0f;
+}
+.flex{
+    display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.in_flex{
+    display: inline-flex;
+}
+.flex_c{
+    flex-direction: column;
+}
+.flex_r{
+    flex-direction: row;
+}
+.a_center{
+    align-items: center;
+}
+.t_center{
+    text-align: center;
+}
+.j_around{
+    justify-content: space-around;
+}
+.j_between{
+    justify-content: space-between;
+}
+.j_evenly{
+    justify-content: space-evenly;
+}
+.j_center{
+    justify-content: center;
+}
+
+/* Salt and pepper font family */
+.salt{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+

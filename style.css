@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Comfortaa:wght@300&family=Fugaz+One&family=Lobster&family=Luckiest+Guy&family=Pacifico&family=Salsa&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    overflow-x: hidden;
+}
+/* navbar start  */
+
+nav{
+    width: 100%;
+    height: 6.4rem;
+    background-color: var(--black);
+    border-bottom: 1px solid gray;
+}
+
+nav i{
+    display: none;
+}
+.logo{
+    width: 20%;
+    padding: 1.2rem 2.2rem;  
+}
+.logo img{
+    width: 60%;
+}
+.nav_items{
+    width: 80%;
+    padding: 0 0 0 3rem;
+}
+.nav_items a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--white);
+}
+.nav_items .btn_nav1{
+    padding: 1.2rem 1rem;
+    border: 2px solid gray;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+.nav_items .btn_nav2{
+    padding: 1rem 1rem;
+    background-color: var(--red);
+    border-radius: 30px;
+    font-size: 1rem;
+}
+.nav_items .btn_nav2 i{
+    font-size: 1.5rem;
+    padding: 5px;
+    background-color: var(--white);
+    color: var(--red);
+    margin-left: .8rem;
+    border-radius: 80%;
+}
+
+/* navbar end  */
+
+/* carousel start */
+
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.carousel-slides {
+    display: flex;
+    height: 560px;
+    animation: slide 10s linear infinite;
+    ;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-slide img {
+    height: 600px;
+    width: 100% !important;
+}
+
+
+
+@keyframes slide {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    16.666% {
+        transform: translateX(0);
+    }
+
+    33.333% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    66.666% {
+        transform: translateX(-200%);
+    }
+
+    83.333% {
+        transform: translateX(-200%);
+    }
+}
+
+/* carousel end  */
+
+/* welcome section start */
+.wel_sec{
+    background-color: var(--black);
+    text-align: center;
+    padding-top: 4rem;
+}
+.wel_content{
+    padding: 2rem 13rem;
+}
+.wel_content h1{
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 4rem;
+}
+.wel_content span{
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+}
+.wel_content p{
+    color: gray;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* Order Section Cards start */
+.order_sec{
+    padding: 2rem 7.5rem;
+}
+.card{
+    background-color: var(--white);
+    padding: 2rem 2rem;
+    border-radius: 4px;
+}
+.main_card :nth-child(2){
+    text-decoration: none;
+    color: var(--white);
+    border: 2px solid gray;
+    padding: 1rem 4rem;
+    line-height: 7rem;
+    border-radius: 30px;
+}
+
+/* Order Section Cards end */
+
+/* welcome section end */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* Franchises Section Start */
+.franchises{
+    background-color: var(--gray);
+    padding: 4rem 4rem;
+}
+.franchise_content{
+    text-align: center;
+    color: var(--white);
+}
+.franchise_content :nth-child(1){
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 5rem;
+}
+.franchise_content :nth-child(2){
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 4rem;
+}
+.franchise_content p{
+    font-size: 1.2rem;
+    line-height: 4rem;
+}
+/* Franchise Islamabad */
+.franchise_isl{
+    margin-top: 2rem;
+}
+.location span{
+    color: var(--red);
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+.location .salt_txt{
+    color: var(--white);
+    font-size: 2.3rem;
+    font-weight: 600 !important;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.location h1{
+    color: var(--white);
+    line-height: 3rem;
+}
+.location p{
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+.location i{
+    font-size: 1.5rem;
+    margin-right: 0.3rem; ;
+}
+.location a{
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2rem;
+    text-decoration: none;
+}
+/* button */
+.location .button{
+    text-decoration: none;
+    color: var(--white);
+    border: 2px solid gray;
+    padding: 1rem 1.5rem;
+    line-height: 10rem;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+.location .button i{
+    font-size: 1.2rem;
+    color: var(--red);
+    padding: .5rem;
+    border-radius: 100%;
+    background-color: var(--white);
+    margin-left: .8rem;
+    text-align: center;
+}
+/* button */
+
+.loc_img img{
+    width: 32rem;
+}
+/* Franchise Islamabad */
+
+/* Franchises Section Start */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* Express Franchise */
+.express_franchise{
+    background-color: var(--black);
+    padding: 4rem .5rem;
+}
+.express_card{
+    width: 100%;
+    margin-top: 2.5rem;
+}
+.exp_card{
+    width: 22rem;
+    text-align: center;
+}
+.exp_card img{
+    width: 100%;
+}
+.exp_card span{
+    color: var(--red);
+    letter-spacing: .5rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+.exp_card h2{
+    color: var(--white);
+    line-height: 3rem;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+.exp_card p{
+    color: gray;
+    /* line-height: 2.5rem; */
+    font-size: 1.1rem;
+    padding-top: 1rem;
+}
+.exp_card i{
+    font-size: 1.2rem;
+    margin-right: .3rem;
+}
+.exp_card p a{
+    color: gray;
+    padding-top: 1rem;
+    /* line-height: 2.5rem; */
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.exp_card p i{
+    font-size: 1.2rem;
+    margin-right: .3rem;
+}
+.exp_card .button{
+    text-decoration: none;
+    color: var(--white);
+    border: 2px solid gray;
+    padding: 1.2rem 1.5rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    line-height: 8rem;
+}
+.exp_card .button i{
+    font-size: 1.4rem;
+    color: var(--red);
+    padding: .5rem;
+    border-radius: 100%;
+    background-color: var(--white);
+    margin-left: .8rem;
+    text-align: center;
+    transform: rotate(-25deg);
+}
+/* Express Franchise */
+/* Village franchise */
+.village_con{
+    padding: 0 25rem;
+}
+/* Village franchise */
+/* Opening Soon Franchises */
+.open_soon{
+    background-color: var(--black);
+    padding: 4rem 0rem;
+}
+.new_content span{
+    font-size: 1.5rem !important;
+}
+.new_card{
+    width: 23rem;
+    background-color: var(--white); 
+    padding: 2.2rem 0rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2rem;
+}
+.card_con{
+    width: 12rem;
+    margin: auto;
+}
+.new_card i{
+    color: var(--red);
+    font-size: 2rem;
+    padding: 18px;
+    border-radius: 100%;
+    background-color: #aba9a9;
+}
+.new_card span{
+    color: var(--red);
+    line-height: 2.5rem;
+}
+.new_card h2{
+    color: var(--black);
+    font-size: 2rem;
+}
+.new_card p{
+    color: var(--black);
+    font-size: 1.5rem;
+}
+/* Opening Soon Franchises */
+/* Specail Feed */
+.special{
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 3rem 0 5rem 0;
+}
+
+.feed_img img{
+    margin-top: 2rem;
+    width: 14rem;
+}
+/* Specail Feed */
+/* Footer */
+footer{
+    background-color: var(--gray);
+}
+.main_footer{
+    padding: 4rem 2rem;
+}
+.logo{
+    width: 28rem;
+}
+.logo p{
+    font-size: 1.1rem;
+    color: gray;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: gray;
+}
+.site_link{
+    width: 20rem;
+    padding-top: 2rem;
+}
+.site_link h2{
+    color: var(--white);
+}
+.site_link a{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.1rem;
+    line-height: 3rem;
+}
+.contact_us{
+    width: 25rem;
+    padding-top: 2rem;
+}
+.contact_us h2{
+    color: var(--white);
+}
+.contact_us a{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.1rem;
+    line-height: 3rem;
+}
+.contact_us p{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.1rem;
+}
+.follow_us{
+    width: 25rem;
+    padding-top: 1.5rem;
+    padding-left: 2.1rem;
+}
+.follow_us h2{
+    color: var(--white);
+    line-height: 5rem;
+    padding-left: 10px;
+}
+.follow_us i{
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    margin-left: 5px;
+    margin-bottom: 2rem;
+}
+.follow_us img{
+    width: 11rem;
+    margin-top: 10px;
+}
+.creat_by{
+    padding: 1.5rem;
+}
+.creat_by p{
+    color: gray;
+    font-size: 1.1rem;
+}
+/* Footer */
+
+
+/* media queries start */
+
+/* media queries start */
+
+@media only screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fa-bars {
+        display: block;
+        color: aliceblue;
+        position: absolute;
+        top: 2.5rem;
+        font-size: 2rem;
+        right: 2rem;
+        cursor: pointer;
+    }
+
+    .logo {
+        width: 100%;
+        padding: 1.2rem 0.5rem;
+        text-align: center;
+    }
+
+    .logo img {
+        max-width: 60%;
+        width: 10rem;
+    }
+
+    .nav_items {
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #844141;
+        z-index: 100;
+        position: absolute;
+        top: 6.4rem;
+        transition: .5s ease;
+        height: 100vh;
+    }
+
+    .nav_items a {
+        display: inline-block;
+        margin-top: -2rem;
+    }
+
+    .nav_items .btn_nav1,
+    .nav_items .btn_nav2 {
+        margin-top: 1rem;
+    }
+
+    .carousel-container {
+        height: 20rem;
+    }
+
+    .carousel-slide img {
+        height: 20rem;
+    }
+
+    .active {
+        transform: translateX(0);
+    }
+
+    .wel_content {
+        padding: 2rem 1rem;
+    }
+
+    .order_sec {
+        padding: 2rem 1rem;
+    }
+
+    .franchises {
+        padding: 4rem 1rem;
+    }
+
+    .village_con {
+        padding: 0 1rem;
+    }
+
+    .open_soon {
+        padding: 4rem 1rem;
+    }
+
+    .special {
+        padding: 3rem 0 5rem 0;
+    }
+
+    .main_footer {
+        padding: 4rem 1rem;
+    }
+
+    .active{
+        transform: translateX(-50rem);
+    }
+
+    .loc_img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .wel_sec img{
+       width: 100%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 968px) {
+
+.order_sec{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    overflow-x: hidden;
+}
+
+.nav_items a{
+    font-size: 1rem !important;
+padding:  1rem !important;
+}
+
+.btn_nav1 {
+    padding: 0 !important;
+    margin: 0px 0px 0rem 0px !important;
+}
+
+.btn_nav2{
+    margin-bottom: 15rem !important;
+}
+
+body{
+    overflow-x:  hidden !important;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width:992px) {
+.nav_items a{}
+
+}
